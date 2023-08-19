@@ -2,7 +2,7 @@
  * @Author: hvvvvvv- 1264178545@qq.com
  * @Date: 2023-08-18 20:14:14
  * @LastEditors: hvvvvvv- 1264178545@qq.com
- * @LastEditTime: 2023-08-18 21:56:56
+ * @LastEditTime: 2023-08-19 21:28:08
  * @FilePath: \iphone-3d\src\App.jsx
  * @Description: >
  * 
@@ -12,7 +12,7 @@ import Nav from './components/Nav'
 import Jumbotron from './components/Jumbotron';
 import SoundSection from './components/SoundSection';
 import DisplaySection from './components/DisplaySection';
-
+import WebgiViewer from './components/WebgiViewer';
 
 function App() {
 
@@ -22,6 +22,7 @@ function App() {
       <Jumbotron />
       <SoundSection />
       <DisplaySection />
+      <WebgiViewer />
     </div>
   );
 }
